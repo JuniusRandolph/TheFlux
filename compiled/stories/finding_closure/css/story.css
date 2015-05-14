@@ -1,0 +1,41 @@
+body {
+	background-color: initial;
+}
+
+.story-cover-image {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+#main-navbar {
+	background-color: #aa0707;
+	text-color:;
+}
+
+.navbar-nav li a {
+	padding: 0.5em 1em;
+	font-size: 0.85em;
+	line-height: 1em;
+	color: #fff;
+}
+
+.navbar-nav li a:hover {
+	background-color: #5b5b5b;	
+}
+
+.header {
+	height: 70vh;
+	position: relative;
+}
+
+.header-img {
+    background-image: url('../../../img/example.jpg'); 
+    background-position: center center;
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
